@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Tam Ev Tadilatı",
+    "slug": "tam-ev-tadilati",
+    "description": "Evinizin tamamını yenileme ve tadilat hizmetleri. Duvar yıkımları, oda genişletme, banyo/mutfak renovasyonu dahil.",
+    "price": 25000,
+    "categoryId": 1,
+    "features": [
+      "Ücretsiz keşif ve fiyat teklifi",
+      "Profesyonel ekip ile hızlı uygulama",
+      "Kaliteli malzeme kullanımı",
+      "İş bitiminde detaylı temizlik",
+      "2 yıl işçilik garantisi"
+    ],
+    "isPopular": true,
+    "isActive": true,
+    "orderCount": 145,
+    "rating": 4.8,
+    "image": "/images/services/full-home-renovation.jpg",
+    "createdAt": "2023-10-15T10:00:00.000Z",
+    "updatedAt": "2024-03-05T12:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Banyo Yenileme",
+    "slug": "banyo-yenileme",
+    "description": "Banyonuzu baştan sona yenileyin. Fayans döşeme, duş kabini, lavabo ve tesisat yenileme işlemleri dahil.",
+    "price": 12000,
+    "categoryId": 1,
+    "features": [
+      "Ücretsiz 3D tasarım hizmeti",
+      "Kaliteli vitrifiye ürünler",
+      "Su ve nem yalıtımı",
+      "Modern fayans seçenekleri",
+      "1 yıl işçilik garantisi"
+    ],
+    "isPopular": true,
+    "isActive": true,
+    "orderCount": 210,
+    "rating": 4.7,
+    "image": "/images/services/bathroom-renovation.jpg",
+    "createdAt": "2023-10-15T10:15:00.000Z",
+    "updatedAt": "2024-03-05T12:35:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Mutfak Renovasyonu",
+    "slug": "mutfak-renovasyonu",
+    "description": "Mutfağınızı modern ve fonksiyonel bir alana dönüştürün. Dolap yenileme, tezgah değişimi ve aydınlatma dahil.",
+    "price": 18000,
+    "categoryId": 1,
+    "features": [
+      "Ücretsiz tasarım danışmanlığı",
+      "Özel tasarım dolaplar",
+      "Granit veya kuvars tezgah seçenekleri",
+      "Modern ankastre cihaz montajı",
+      "2 yıl dolap garantisi"
+    ],
+    "isPopular": true,
+    "isActive": true,
+    "orderCount": 180,
+    "rating": 4.9,
+    "image": "/images/services/kitchen-renovation.jpg",
+    "createdAt": "2023-10-15T10:30:00.000Z",
+    "updatedAt": "2024-03-05T12:40:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Dış Cephe Boyama",
+    "slug": "dis-cephe-boyama",
+    "description": "Binanızın dış cephesini profesyonel ekibimizle yenileyin. Yüzey hazırlığı, astar ve son kat boya uygulaması.",
+    "price": 15000,
+    "categoryId": 3,
+    "features": [
+      "Ücretsiz keşif ve m² ölçümü",
+      "Isı yalıtımlı boya seçenekleri",
+      "Profesyonel uygulama ekibi",
+      "10 yıl renk solmama garantisi",
+      "İskele kurulumu dahil"
+    ],
+    "isPopular": false,
+    "isActive": true,
+    "orderCount": 95,
+    "rating": 4.6,
+    "image": "/images/services/exterior-painting.jpg",
+    "createdAt": "2023-10-15T10:45:00.000Z",
+    "updatedAt": "2024-03-05T12:45:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "İç Mekan Dekorasyon",
+    "slug": "ic-mekan-dekorasyon",
+    "description": "Evinizin iç mekanını profesyonel dekorasyon hizmetimizle yenileyin. Renk seçimi, mobilya düzeni ve aksesuar önerileri.",
+    "price": 5000,
+    "categoryId": 3,
+    "features": [
+      "Kişisel tarz analizi",
+      "3D görselleştirme",
+      "Mobilya yerleşim planı",
+      "Renk uyumu danışmanlığı",
+      "Aydınlatma çözümleri"
+    ],
+    "isPopular": false,
+    "isActive": true,
+    "orderCount": 120,
+    "rating": 4.8,
+    "image": "/images/services/interior-decoration.jpg",
+    "createdAt": "2023-10-15T11:00:00.000Z",
+    "updatedAt": "2024-03-05T12:50:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Bahçe Peyzaj Tasarımı",
+    "slug": "bahce-peyzaj-tasarimi",
+    "description": "Bahçeniz için profesyonel peyzaj tasarımı ve uygulama hizmeti. Bitki seçimi, çim döşeme ve dekoratif öğeler dahil.",
+    "price": 8000,
+    "categoryId": 2,
+    "features": [
+      "Detaylı bahçe analizi",
+      "Mevsimsel bitki seçimi",
+      "Sulama sistemi kurulumu",
+      "Dekoratif taş ve ahşap uygulamaları",
+      "Dış mekan aydınlatma"
+    ],
+    "isPopular": true,
+    "isActive": true,
+    "orderCount": 85,
+    "rating": 4.7,
+    "image": "/images/services/garden-landscape.jpg",
+    "createdAt": "2023-10-15T11:15:00.000Z",
+    "updatedAt": "2024-03-05T12:55:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Çim Alan Bakımı",
+    "slug": "cim-alan-bakimi",
+    "description": "Bahçenizin çim alanları için profesyonel bakım hizmeti. Biçme, gübreleme, havalandırma ve sulama sistemleri.",
+    "price": 2500,
+    "categoryId": 2,
+    "features": [
+      "Düzenli çim biçme",
+      "Gübreleme programı",
+      "Yabani ot kontrolü",
+      "Tohumlama ve canlandırma",
+      "Otomatik sulama sistemi kurulumu"
+    ],
+    "isPopular": false,
+    "isActive": true,
+    "orderCount": 140,
+    "rating": 4.5,
+    "image": "/images/services/lawn-care.jpg",
+    "createdAt": "2023-10-15T11:30:00.000Z",
+    "updatedAt": "2024-03-05T13:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Elektrik Tesisatı Yenileme",
+    "slug": "elektrik-tesisati-yenileme",
+    "description": "Evinizin elektrik tesisatını tam kapsamlı yenileme hizmeti. Kablolama, sigorta panosu ve elektrik aksesuarları dahil.",
+    "price": 7500,
+    "categoryId": 4,
+    "features": [
+      "TSE standartlarına uygun malzeme",
+      "Projelendirme hizmeti",
+      "Profesyonel elektrik mühendisi denetimi",
+      "5 yıl sistem garantisi",
+      "24/7 teknik destek"
+    ],
+    "isPopular": false,
+    "isActive": true,
+    "orderCount": 110,
+    "rating": 4.8,
+    "image": "/images/services/electrical-renovation.jpg",
+    "createdAt": "2023-10-15T11:45:00.000Z",
+    "updatedAt": "2024-03-05T13:05:00.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Su Tesisatı Yenileme",
+    "slug": "su-tesisati-yenileme",
+    "description": "Evinizin su tesisatını yenileme hizmeti. Borular, musluklar, bataryalar ve gider sistemleri dahil.",
+    "price": 6800,
+    "categoryId": 5,
+    "features": [
+      "PPR boru kullanımı",
+      "Kaçak tespiti ve onarımı",
+      "Su basıncı optimizasyonu",
+      "Kaliteli armatür montajı",
+      "3 yıl işçilik garantisi"
+    ],
+    "isPopular": false,
+    "isActive": true,
+    "orderCount": 95,
+    "rating": 4.6,
+    "image": "/images/services/plumbing-renovation.jpg",
+    "createdAt": "2023-10-15T12:00:00.000Z",
+    "updatedAt": "2024-03-05T13:10:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Özel Marangozluk Hizmetleri",
+    "slug": "ozel-marangozluk-hizmetleri",
+    "description": "Özel tasarım mobilya ve ahşap işleri için profesyonel marangozluk hizmeti. Dolap, raf, masa, kitaplık yapımı.",
+    "price": 4500,
+    "categoryId": 7,
+    "features": [
+      "Özel tasarım hizmeti",
+      "Kaliteli ahşap malzeme seçenekleri",
+      "Profesyonel cilalama ve boyama",
+      "Montaj dahil",
+      "2 yıl ürün garantisi"
+    ],
+    "isPopular": true,
+    "isActive": true,
+    "orderCount": 130,
+    "rating": 4.9,
+    "image": "/images/services/custom-carpentry.jpg",
+    "createdAt": "2023-10-15T12:15:00.000Z",
+    "updatedAt": "2024-03-05T13:15:00.000Z"
+  }
+] 
