@@ -23,7 +23,8 @@ class ChatService {
       }
 
       const token = localStorage.getItem("accessToken");
-      const socket = new SockJS(`http://localhost:8080/ws?token=${token}`);
+      const wsUrl = process.env.REACT_APP_API_URL || "http://localhost:8080";
+      const socket = new SockJS(`${wsUrl}/ws?token=${token}`);
 
       this.stompClient = new Client({
         webSocketFactory: () => socket,

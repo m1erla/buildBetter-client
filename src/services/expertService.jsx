@@ -1,5 +1,5 @@
 import api from "../utils/api";
-import { mockExperts } from "../../src/services/mockExpertData"
+
 const getAuthHeader = () => {
   const token = localStorage.getItem("accessToken");
   if (!token) {
@@ -8,25 +8,15 @@ const getAuthHeader = () => {
   return { Authorization: `Bearer ${token}` };
 };
 
-
-
-
 const getAllExperts = async () => {
-    // Simulate API call delay
-    await new Promise(resolve => setTimeout(resolve, 500));
-
-    // In a real scenario, you would fetch from an API:
-    // try {
-    //   const response = await api.get('/experts');
-    //   return response.data;
-    // } catch (error) {
-    //   console.error('Failed to fetch experts:', error);
-    //   throw error;
-    // }
-
-    // Return mock data for now
-    return mockExperts;
-  };
+  try {
+    const response = await api.get('/api/v1/experts');
+    return response.data || [];
+  } catch (error) {
+    console.error('Failed to fetch experts:', error);
+    throw error;
+  }
+};
 
 const getExpertProfile = async () => {
   try {
@@ -68,7 +58,6 @@ const getExpertById = async (expertId) => {
 
 const getPaymentInfo = async (expertId) => {
   try {
-    // Token kontrolü
     const token = localStorage.getItem("accessToken");
     if (!token) {
       throw new Error("Oturum süresi dolmuş. Lütfen tekrar giriş yapın.");
@@ -81,12 +70,10 @@ const getPaymentInfo = async (expertId) => {
       },
     });
 
-    console.log("Debug - Expert payment info response:", response.data);
     return response.data;
   } catch (error) {
     console.error("Error getting expert payment info:", error);
 
-    // 401 hatası kontrolü
     if (error.response?.status === 401) {
       throw new Error("Oturum süresi dolmuş. Lütfen tekrar giriş yapın.");
     }
@@ -153,5 +140,5 @@ export default {
   createStripeCustomer,
   attachPaymentMethod,
   updateExpertProfile,
-  getAllExperts
+  getAllExperts,
 };
